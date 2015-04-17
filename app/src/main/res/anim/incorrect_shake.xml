@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--fromXDelta = where animation starts-->
+    <!--toXDelta = move to left 5% of parent's width-->
+    <!--duration = move in 100 milliseconds-->
+    <translate android:fromXDelta="0"
+        android:toXDelta="-5%p"
+        android:duration="100" />
+
+    <!--fromXDelta = where animation starts-->
+    <!--toXDelta = move to right 5% of parent's width-->
+    <!--duration = move in 100 milliseconds-->
+    <!--startOffset = wait 100 milliseconds to start so both don't run at same time-->
+    <translate android:fromXDelta="-5%p"
+        android:toXDelta="5%p"
+        android:duration="100"
+        android:startOffset="100"/>
+
+    <!--fromXDelta = where animation starts-->
+    <!--toXDelta = move to left 5% of parent's width-->
+    <!--duration = move in 200 milliseconds-->
+    <translate android:fromXDelta="5%p"
+        android:toXDelta="-5%p"
+        android:duration="100"
+        android:startOffset="200"/>
+
+
+</set>

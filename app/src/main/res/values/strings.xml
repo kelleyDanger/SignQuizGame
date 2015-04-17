@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Road Sign Quiz</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="title">Road Sign Quiz</string>
+    <string name="choices">Select Number of Choices</string>
+    <string name="correct">correct</string>
+    <string name="guess_sign">Guess the Sign</string>
+    <string name="guesses">guesses</string>
+    <string name="incorrect_answer">Incorrect!</string>
+    <string name="more_regions_title">More Regions Required</string>
+    <string name="more_regions_message">There are not enough countries in the selected regions.  Please select more regions.</string>
+    <string name="of">of</string>
+    <string name="ok">OK</string>
+    <string name="question">Question</string>
+    <string name="quiz_title">Road Sign Quiz</string>
+    <string name="reset_quiz">Reset Quiz</string>
+    <string name="reset">Reset</string>
+
+    <string-array name="signNamesList">
+        <item >bicycle lane ahead</item>
+        <item >bus stop parking</item>
+        <item >cattle</item>
+        <item >center lane only</item>
+        <item >deer crossing</item>
+        <item >do not enter</item>
+        <item >drawbridge</item>
+        <item >falling rocks</item>
+        <item >handicapped parking</item>
+        <item >intersection ahead</item>
+        <item >no hitch hiking</item>
+        <item >no u turn</item>
+        <item >roundabout</item>
+        <item >stop</item>
+        <item >two way ahead</item>
+    </string-array>
+    <string-array name="guessesList">
+        <item >3</item>
+        <item >6</item>
+        <item >9</item>
+    </string-array>
+
+
+
+</resources>
